@@ -1,0 +1,23 @@
+{
+    "intervalSeconds": 600,
+    "requestGapMs": 2100,
+    "filter": {
+        "label": "<film title> · <cinema>",
+        "siteIds": [
+            "KBRU"
+        ],
+        "filmIds": [],
+        "requiredAttributeIds": []
+    },
+    "seats": {
+        "enabled": true,
+        "minAdjacent": 3,
+        "rowsFrom": 0.45,
+        "rowsTo": 1.0,
+        "colsFrom": 0.28,
+        "colsTo": 0.72,
+        "centreBlockOnly": true,
+        "screenPosition": "top",
+        "maxChecks": 30
+    }
+}

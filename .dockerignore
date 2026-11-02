@@ -1,0 +1,10 @@
+node_modules/
+secrets.json
+config.json
+state.json
+layouts.json
+notifier.log
+seatmap.svg
+.git/
+*.log
+.DS_Store

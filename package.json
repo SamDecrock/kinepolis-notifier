@@ -1,0 +1,28 @@
+{
+  "name": "kinepolis-notifier",
+  "version": "2.0.3",
+  "description": "Pushbericht zodra er voor een Kinepolis-film nieuwe voorstellingen of goede plaatsen naast elkaar vrijkomen (stoelplan-analyse, Pushover/ntfy/Telegram)",
+  "scripts": {
+    "setup": "node setup.js",
+    "find": "node notifier.js --find",
+    "start": "node notifier.js --loop",
+    "once": "node notifier.js",
+    "map": "node notifier.js --map"
+  },
+  "keywords": [
+    "kinepolis",
+    "cinema",
+    "notifier",
+    "pushover",
+    "seats"
+  ],
+  "author": "Sam Decrock",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cycletls": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
